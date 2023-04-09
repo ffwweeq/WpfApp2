@@ -34,7 +34,8 @@ namespace WpfApp2
             else
             {
                 txtd.Text = "登入失敗";
-
+                txta.Text = "";
+                txtb.Text = "";
             }
         }
 
