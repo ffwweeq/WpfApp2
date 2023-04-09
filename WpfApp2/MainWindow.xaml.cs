@@ -27,7 +27,10 @@ namespace WpfApp2
 
         private void txtc_Click(object sender, RoutedEventArgs e)
         {
-
+            if (txta.Text == "abc" && txtb.Text == "123")
+            {
+                txtd.Text = "登入成功";
+            }
         }
 
         private void txta_KeyUp(object sender, KeyEventArgs e)
