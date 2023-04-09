@@ -31,7 +31,11 @@ namespace WpfApp2
             {
                 txtd.Text = "登入成功";
             }
+            else
+            {
+                txtd.Text = "登入失敗";
 
+            }
         }
 
     }
